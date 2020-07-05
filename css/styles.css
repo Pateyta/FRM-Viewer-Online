@@ -1,0 +1,73 @@
+body, html {
+  background: #445566;
+  padding: 10px;
+  font-family: Helvetica;
+  color: orange;
+  width:  100%;
+  height: 100%;
+    margin:0;
+   padding:0;
+}
+
+
+table {
+  border: 1px solid green;
+  font-size: 10px;
+}
+
+td, th {
+  border: 1px solid lightgreen;
+}
+
+progress {
+  width: 100%;
+}
+
+span {
+  padding-top: 1px;
+  position: absolute;
+  left: 25%;
+  color: red;
+}
+
+canvas {
+  border: 1px solid green;
+  background: grey;
+  display: block;
+  position:relative;
+  float: center;
+  width:80%;
+  height:60%;
+  min-width: 10;
+  min-height: 10;
+}
+
+.d_main {
+  width: 100%;
+  height: 100%;
+  background: #445566;
+}
+
+.d_flex{
+   display: flex;
+}
+
+.d_row {
+  width: 100%;
+  background: #445566;
+  height: 100%;
+ }
+
+footer{
+   display: block; 
+   bottom:0;
+   width:100%;
+   height:50px;   /* Height of the footer */
+   background: #445566;
+}
+
+thead,
+tbody {
+  background: #445566;
+  display: block;
+}
